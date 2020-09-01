@@ -1,0 +1,10 @@
+about:
+  book: "https://www.railstutorial.org/book"
+  learn_enough: "https://www.learnenough.com/"
+  rails_link: "https://www.railstutorial.org/"
+  screencasts: "https://screencasts.railstutorial.org/"
+  screencast_series: "https://screencasts.railstutorial.org/"
+help:
+  rails_link: "https://www.railstutorial.org/"
+home:
+  rails_link: "https://www.railstutorial.org/"

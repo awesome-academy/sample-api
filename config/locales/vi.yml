@@ -1,2 +1,26 @@
 vi:
-  title: "Ứng dụng đơn giản"
+  layouts:
+    application:
+      title: "Ứng dụng đơn giản"
+  static_pages:
+    about:
+      title: "Liên hệ"
+      and: "và"
+      book: ""
+      rails_link: "Hướng dẫn Ruby on Rails"
+      part_of: "là một phần của sách"
+      learn_enough: "Learn Enough"
+      screencast_series: những video series hướng dẫn
+      the: ""
+      family_of_tutorials: "là một chuỗi các bài hướng dẫn"
+      teach_web: "dạy phát triển web với"
+      sample_app: "Đây là ứng dụng đơn giản của hướng dẫn "
+    home:
+      title: "Ứng dụng đơn giản"
+      rails_link: "Hướng dẫn Ruby on Rails"
+      content_1: "Đây là trang chủ của  "
+      content_2: " "
+    help:
+      title: "Trợ giúp"
+      content: "Hãy đọc"
+      rails_link: "Sách Rails Tutorial"
