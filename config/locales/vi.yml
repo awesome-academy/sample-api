@@ -1,7 +1,8 @@
 vi:
+  title: "Ứng dụng mẫu Ruby On Rails tutorial"
   layouts:
     application:
-      title: "Ứng dụng đơn giản"
+      title: "Ứng dụng mẫu Ruby On Rails tutorial"
   static_pages:
     about:
       title: "Liên hệ"
@@ -16,7 +17,7 @@ vi:
       teach_web: "dạy phát triển web với"
       sample_app: "Đây là ứng dụng đơn giản của hướng dẫn "
     home:
-      title: "Ứng dụng đơn giản"
+      title: "Ứng dụng mẫu"
       rails_link: "Hướng dẫn Ruby on Rails"
       content_1: "Đây là trang chủ của  "
       content_2: " "

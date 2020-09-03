@@ -1,7 +1,8 @@
 en:
+  title: "Ruby on Rails Tutorial Sample App"
   layouts:
     application:
-      title: "sample App"
+      title: "Ruby on Rails Tutorial Sample App"
   static_pages:
     about:
       title: "About"
