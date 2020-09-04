@@ -1,3 +1,7 @@
+footer:
+  rails_link: "https://www.railstutorial.org/"
+  michaelhartl: "https://www.michaelhartl.com/"
+  news_link: "https://news.railstutorial.org/"
 about:
   book: "https://www.railstutorial.org/book"
   learn_enough: "https://www.learnenough.com/"
@@ -8,3 +12,5 @@ help:
   rails_link: "https://www.railstutorial.org/"
 home:
   rails_link: "https://www.railstutorial.org/"
+contact:
+  rails_link: "https://www.railstutorial.org/contact"

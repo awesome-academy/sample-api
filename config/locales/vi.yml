@@ -3,6 +3,18 @@ vi:
   layouts:
     application:
       title: "Ứng dụng mẫu Ruby On Rails tutorial"
+    footer:
+      the: ""
+      rails_link: "Ruby on Rails Tutorial"
+      by: "bởi"
+      michaelhartl: "michaelhartl"
+      contact: "Liên hệ"
+      about: "Giới thiệu"
+      news: "mới"
+    header:
+      home: "Trang chủ"
+      help: "Trợ giúp"
+      log_in: "Đăng nhập"
   static_pages:
     about:
       title: "Liên hệ"
@@ -21,7 +33,12 @@ vi:
       rails_link: "Hướng dẫn Ruby on Rails"
       content_1: "Đây là trang chủ của  "
       content_2: " "
+      sign_up: "Đăng ký ngay !"
     help:
       title: "Trợ giúp"
       content: "Hãy đọc"
       rails_link: "Sách Rails Tutorial"
+  users:
+    new:
+      sign_up: "Đăng ký"
+      text: "Đăng ký người dùng mới."
