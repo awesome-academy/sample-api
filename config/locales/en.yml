@@ -44,5 +44,13 @@ en:
       content_1: "Contact the Ruby on Rails Tutorial about the sample app at the"
   users:
     new:
-      sign_up: "Sign up"
+      title: "Sign up"
       text: "This will be a signup page for new users."
+      button: "Create my account"
+      not_found: "Not found"
+      welcome: "Welcome to the Sample App!"
+      error: "Error"
+  shared:
+    error_messages:
+      error_contains: "The form contains"
+      error: "error"

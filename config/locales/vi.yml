@@ -40,5 +40,13 @@ vi:
       rails_link: "Sách Rails Tutorial"
   users:
     new:
-      sign_up: "Đăng ký"
+      title: "Đăng ký"
       text: "Đăng ký người dùng mới."
+      button: "Tạo tài khoản"
+      not_found: "Không tìm thấy người dùng"
+      welcome: "Chào mừng đến với Sample App!"
+      error: "Lỗi"
+  shared:
+    error_messages:
+      error_contains: "Form chứa"
+      error: "Lỗi"
