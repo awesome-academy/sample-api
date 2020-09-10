@@ -15,6 +15,11 @@ vi:
       home: "Trang chủ"
       help: "Trợ giúp"
       log_in: "Đăng nhập"
+      users: "Người dùng"
+      account: "Tài khoản"
+      profile: "Thông tin"
+      settings: "Cài đặt"
+      logout: "Đăng xuất"
   static_pages:
     about:
       title: "Liên hệ"
@@ -50,3 +55,9 @@ vi:
     error_messages:
       error_contains: "Form chứa"
       error: "Lỗi"
+  sessions:
+    error: "Email hoặc mật khẩu không chính xác"
+    new:
+      log_in: "Đăng nhập"
+      sign_up_now: "Đăng ký ngay !"
+      new_user: "Người dùng mới ?"
