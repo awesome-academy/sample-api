@@ -5,6 +5,7 @@ class SessionsController < ApplicationController
     user = User.find_by email: params[:session][:email].downcase
     if user&.authenticate params[:session][:password]
       log_in user
+      check_remember params[:session][:remember_me], user
       redirect_to user
     else
       flash.now[:danger] = t ".error"
@@ -15,5 +16,11 @@ class SessionsController < ApplicationController
   def destroy
     log_out
     redirect_to root_url
+  end
+
+  private
+
+  def check_remember remember_me, user
+    remember_me == Settings.checkbox.value ? remember(user) : forget(user)
   end
 end
