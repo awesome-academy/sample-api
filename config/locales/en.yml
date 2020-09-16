@@ -55,6 +55,23 @@ en:
       not_found: "Not found"
       welcome: "Welcome to the Sample App!"
       error: "Error"
+      please_log_in: "Please log in"
+    index:
+      title: "All users"
+    destroy:
+      user_deleted: "User Deleted"
+      fail: "Delete fail !"
+    user:
+      delete: "Delete"
+      you_sure: "You sure ?"
+    update:
+      profile_updated: "Profile updated"
+      fails: "Update fails"
+    edit:
+      edit_user: "Edit User"
+      title: "Update your profile"
+      save_changes: "Save changes"
+      change: "Change"
   shared:
     error_messages:
       error_contains: "The form contains"
