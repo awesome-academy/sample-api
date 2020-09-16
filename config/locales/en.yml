@@ -56,6 +56,7 @@ en:
       welcome: "Welcome to the Sample App!"
       error: "Error"
       please_log_in: "Please log in"
+      check_email: "Please check your email to activate your account."
     index:
       title: "All users"
     destroy:
@@ -78,8 +79,16 @@ en:
       error: "error"
   sessions:
     error: "Invalid email/password combination"
+    not_activated: "Account not activated.Check your email for the activation link"
     new:
       log_in: "Log in"
       sign_up_now: "Sign up now!"
       new_user: "New user?"
       remember_me: "Remember me on this computer"
+  user_mailer:
+    account_activation:
+      title: "Sample App"
+      hi: "Hi"
+      welcome: "Welcome to the Sample App! Click on the link below to activate your account"
+      activated: "Account activated!"
+      invalid_link: "Invalid activation link"
