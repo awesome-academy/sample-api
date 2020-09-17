@@ -52,6 +52,7 @@ vi:
       welcome: "Chào mừng đến với Sample App!"
       error: "Lỗi"
       please_log_in: "Hãy đăng nhập"
+      check_email: "Hãy kiểm tra email của bạn để kích hoạt tài khoản"
     index:
       title: "Tất cả người dùng"
     destroy:
@@ -74,8 +75,16 @@ vi:
       error: "Lỗi"
   sessions:
     error: "Email hoặc mật khẩu không chính xác"
+    not_activated: "Tài khoản chưa được kích hoạt.Kiểm tra link kích hoạt trong email của bạn"
     new:
       log_in: "Đăng nhập"
       sign_up_now: "Đăng ký ngay !"
       new_user: "Người dùng mới ?"
       remember_me: "Nhớ tôi"
+  user_mailer:
+    account_activation:
+      title: "Ứng dụng mẫu"
+      hi: "Xin chào"
+      welcome: "Chào mừng bạn đến ứng dụng mẫu"
+      activated: "Tài khoản đã được kích hoạt"
+      invalid_link: "link kích họat không hợp lệ"
