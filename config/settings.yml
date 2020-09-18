@@ -27,3 +27,5 @@ checkbox:
 users:
   edit:
     avatar: "http://gravatar.com/emails"
+expired:
+  hour: 2

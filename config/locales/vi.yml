@@ -81,10 +81,33 @@ vi:
       sign_up_now: "Đăng ký ngay !"
       new_user: "Người dùng mới ?"
       remember_me: "Nhớ tôi"
+      forgot_password: "Quên mật khẩu"
+  account_activation:
+    activated: "Tài khoản đã được kích hoạt"
+    invalid_link: "link kích họat không hợp lệ"
   user_mailer:
     account_activation:
       title: "Ứng dụng mẫu"
       hi: "Xin chào"
       welcome: "Chào mừng bạn đến ứng dụng mẫu"
-      activated: "Tài khoản đã được kích hoạt"
-      invalid_link: "link kích họat không hợp lệ"
+    password_reset:
+      title: "Đặt lại mật khẩu"
+      click_link: "Để đặt lại mật khẩu hãy click vào link dưới :"
+      reset_password: "Đặt lại mật khẩu"
+      expire: " Link sẽ hết hạn trong 2 giờ"
+      ignore_email: "Nếu bạn không yêu cầu đặt lại mật khẩu,hãy bỏ qua email này"
+      subject_password: "Đặt lại mật khẩu"
+  password_resets:
+    expired: "Mật khẩu đã hết hạn"
+    new:
+      title: "Quên mật khẩu"
+      submit_btn: "Gửi"
+    edit:
+      title: "Đặt lại mật khẩu"
+      update_btn: "Cập nhật mật khẩu"
+    create:
+      success: "Email đã được gửi với hướng dẫn đặt lại mật khẩu"
+      fail: "Không tìm thấy địa chỉ email"
+    update:
+      empty: Không được để trống"
+      reset_success: Đặt lại mật khẩu thành công"

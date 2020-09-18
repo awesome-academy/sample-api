@@ -85,10 +85,36 @@ en:
       sign_up_now: "Sign up now!"
       new_user: "New user?"
       remember_me: "Remember me on this computer"
+      forgot_password: "forgot password"
+  account_activations:
+    activated: "Account activated!"
+    invalid_link: "Invalid activation link"
   user_mailer:
     account_activation:
       title: "Sample App"
       hi: "Hi"
       welcome: "Welcome to the Sample App! Click on the link below to activate your account"
-      activated: "Account activated!"
-      invalid_link: "Invalid activation link"
+    password_reset:
+      title: "Password reset"
+      click_link: "To reset your password click the link below:"
+      reset_password: "Reset password"
+      expire: "This link will expire in two hours."
+      ignore_email:
+        "If you did not request your password to be reset, please ignore this email and
+        your password will stay as it is."
+      subject_password: "Password reset"
+  password_resets:
+    new:
+      title: "Forgot password"
+      submit_btn: "Submit"
+    edit:
+      title: "Reset password"
+      update_btn: "Update password"
+    expired: "Password reset has expired."
+    create:
+      success: "Email sent with password reset instructions"
+      fail: "Email address not found"
+    update:
+      empty: "can't be empty"
+      reset_success: "Password has been reset."
+      error: "Error"
