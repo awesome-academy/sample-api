@@ -39,6 +39,7 @@ en:
       content_1: "This is the home page for the"
       content_2: "sample application."
       sign_up: "Sign up now !"
+      micropost_feed: "Micropost Feed"
     help:
       title: "Help"
       rails_link: "Rails Tutorial Help page"
@@ -73,10 +74,18 @@ en:
       title: "Update your profile"
       save_changes: "Save changes"
       change: "Change"
+    show:
+      microposts: "Microposts"
   shared:
     error_messages:
       error_contains: "The form contains"
       error: "error"
+    micropost_form:
+      post: "Post"
+      new_micropost: "Compose new micropost..."
+    user_info:
+      view_my_profile: "View my profile"
+      micropost: "Micropost"
   sessions:
     error: "Invalid email/password combination"
     not_activated: "Account not activated.Check your email for the activation link"
@@ -118,3 +127,14 @@ en:
       empty: "can't be empty"
       reset_success: "Password has been reset."
       error: "Error"
+  microposts:
+    create:
+      micropost_created: "Micropost created !"
+    destroy:
+      micropost_deleted: "Micropost deleted"
+      fail: "Error"
+    micropost:
+      posted: "Posted"
+      ago: "ago"
+      delete: "Delete"
+      sure: "You sure?"

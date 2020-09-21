@@ -29,3 +29,7 @@ users:
     avatar: "http://gravatar.com/emails"
 expired:
   hour: 2
+micropost:
+  length_content: 140
+  page: 5
+limit_image: 300

@@ -39,6 +39,7 @@ vi:
       content_1: "Đây là trang chủ của  "
       content_2: " "
       sign_up: "Đăng ký ngay !"
+      micropost_feed: "Bài viết"
     help:
       title: "Trợ giúp"
       content: "Hãy đọc"
@@ -69,10 +70,18 @@ vi:
       title: "Cập nhật thông tin của bạn"
       save_changes: "Lưu thay đổi"
       change: "Thay đổi"
+    show:
+      microposts: "Bài viết"
   shared:
     error_messages:
       error_contains: "Form chứa"
       error: "Lỗi"
+    micropost_form:
+      post: "Đăng"
+      new_micropost: "Bài viết mới"
+    user_info:
+      view_my_profile: "Xem thông tin"
+      micropost: "Bài viết"
   sessions:
     error: "Email hoặc mật khẩu không chính xác"
     not_activated: "Tài khoản chưa được kích hoạt.Kiểm tra link kích hoạt trong email của bạn"
@@ -111,3 +120,14 @@ vi:
     update:
       empty: Không được để trống"
       reset_success: Đặt lại mật khẩu thành công"
+  microposts:
+    create:
+      micropost_created: "Đã tạo bài viết !"
+    destroy:
+      micropost_deleted: "Đã xóa bài viết"
+      fail: "Lỗi"
+    micropost:
+      posted: "Đã đăng"
+      ago: "trước"
+      delete: "Xóa"
+      sure: "Bạn đã chắc chắn chưa?"
