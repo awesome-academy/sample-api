@@ -31,5 +31,6 @@ expired:
   hour: 2
 micropost:
   length_content: 140
+micro:
   page: 5
 limit_image: 300

@@ -72,6 +72,17 @@ vi:
       change: "Thay đổi"
     show:
       microposts: "Bài viết"
+    following:
+      following: "Theo dõi"
+    followers:
+      followers: "Người theo dõi"
+    follow:
+      follow: "Theo dõi"
+    unfollow:
+      unfollow: "Bỏ theo dõi"
+    show_follow:
+      view_my_profile: "Xem thông tin"
+      microposts: "bài viết"
   shared:
     error_messages:
       error_contains: "Form chứa"
@@ -82,6 +93,9 @@ vi:
     user_info:
       view_my_profile: "Xem thông tin"
       micropost: "Bài viết"
+    stats:
+      following: "Theo dõi"
+      follower: "Người theo dõi"
   sessions:
     error: "Email hoặc mật khẩu không chính xác"
     not_activated: "Tài khoản chưa được kích hoạt.Kiểm tra link kích hoạt trong email của bạn"
@@ -131,3 +145,5 @@ vi:
       ago: "trước"
       delete: "Xóa"
       sure: "Bạn đã chắc chắn chưa?"
+ relationships:
+    fail: "Thất bại !"
