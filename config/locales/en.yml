@@ -76,6 +76,17 @@ en:
       change: "Change"
     show:
       microposts: "Microposts"
+    following:
+      following: "Following"
+    followers:
+      followers: "Followers"
+    follow:
+      follow: "Follow"
+    unfollow:
+      unfollow: "Unfollow"
+    show_follow:
+      view_my_profile: "View my profile"
+      microposts: "Microposts"
   shared:
     error_messages:
       error_contains: "The form contains"
@@ -86,6 +97,9 @@ en:
     user_info:
       view_my_profile: "View my profile"
       micropost: "Micropost"
+    stats:
+      following: "Following"
+      follower: "Follower"
   sessions:
     error: "Invalid email/password combination"
     not_activated: "Account not activated.Check your email for the activation link"
@@ -138,3 +152,5 @@ en:
       ago: "ago"
       delete: "Delete"
       sure: "You sure?"
+  relationships:
+    fail: "Fail"
