@@ -10,5 +10,13 @@ module SampleApp
     config.i18n.available_locales = [:en, :vi]
     config.i18n.default_locale = :en
     config.action_view.embed_authenticity_token_in_remote_forms = true
+    config.middleware.use Rack::Cors do
+      allow do
+        origins "*"
+        resource "*", headers: :any, methods: [:get, 
+            :post, :put, :delete, :options]
+      end
+    end
+    # config.active_record.raise_in_transactional_callbacks = true
   end
 end
